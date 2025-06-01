@@ -1,5 +1,5 @@
 {
-  "name": "@codetrix-studio/capacitor-google-auth",
+  "name": "@lopez-an/capacitor-google-auth",
   "version": "3.4.0-rc.4",
   "description": "Google Auth plugin for capacitor.",
   "main": "dist/esm/index.js",
@@ -18,7 +18,7 @@
   "devDependencies": {
     "@capacitor/android": "^6.0.0",
     "@capacitor/cli": "^6.0.0",
-    "@capacitor/core": "^6.0.0",
+    "@capacitor/core": "^6.0.0 || ^7.0.0",
     "@capacitor/docgen": "^0.2.1",
     "@capacitor/ios": "^6.0.0",
     "@ionic/prettier-config": "^2.0.0",
@@ -28,7 +28,7 @@
     "typescript": "^4.7.4"
   },
   "peerDependencies": {
-    "@capacitor/core": "^6.0.0"
+    "@capacitor/core": "^6.0.0 || ^7.0.0"
   },
   "files": [
     "dist/",
